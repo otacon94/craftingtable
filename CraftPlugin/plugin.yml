@@ -1,0 +1,17 @@
+name: CraftingTable
+main: com.otacon94.craftingtable.CraftPlugin
+version: 1.0
+author: Otacon94
+commands:
+   wb:
+     description: Delete useless items.
+   ct:
+     description: Delete useless items.
+permissions:
+   craftingtable.*:
+     description: Gives access to all Trash commands
+     children:
+       craftingtable.use: true
+   craftingtable.use:
+     description: Allows you to use search command
+     default: op
