@@ -9,7 +9,7 @@ commands:
      description: Delete useless items.
 permissions:
    craftingtable.*:
-     description: Gives access to all Trash commands
+     description: Gives access to all craft commands
      children:
        craftingtable.use: true
    craftingtable.use:
