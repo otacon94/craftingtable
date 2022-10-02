@@ -5,8 +5,6 @@ author: Otacon94
 commands:
    wb:
      description: Delete useless items.
-   ct:
-     description: Delete useless items.
 permissions:
    craftingtable.*:
      description: Gives access to all craft commands
